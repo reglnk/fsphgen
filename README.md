@@ -1,5 +1,5 @@
 # fsphgen
-A UV sphere model generator for OpenGL apps.
+UV sphere model generator for OpenGL apps.
 Output is C header file containing vertices array and indices array.
 Vertices are to be passed to VBO, indices respectively to EBO.
 Each vertice contains 5 floats: coordinates of point on sphere surface and coords of texture next to them.
