@@ -6,6 +6,7 @@ Each unsigned int of Index array is a pointer to vertex.
 Each index string contains one triangle in first and last sphere layer, 2 triangles (that are 1 rectangle) in middle layers.
 
 Usage example:
+
 static void initSphGraphics()
 {
 	glGenVertexArrays(1, &VAO);
