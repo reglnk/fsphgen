@@ -5,7 +5,7 @@ Each vertex contains 5 floats: coordinates of point on sphere surface and coords
 Each unsigned int of Index array is a pointer to vertex.
 Each index string contains one triangle in first and last sphere layer, or 2 triangles (that are 1 rectangle) in middle layers.
 
-# Usage example:
+# Example of generated sphere usage:
 ```c
 glGenVertexArrays(1, &VAO);
 glGenBuffers(1, &VBO);
