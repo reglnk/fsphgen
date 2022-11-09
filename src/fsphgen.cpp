@@ -1,5 +1,5 @@
 ﻿// UV sphere model generator
-// 13 mar 2022
+// 09 Nov 2022
 
 #include <iostream>
 #include <cmath>
