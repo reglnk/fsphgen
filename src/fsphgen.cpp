@@ -205,7 +205,7 @@ int main()
 	cout << (q << 1) * (p - 1) << " triangles\n";
 	time_t lt;
 	lt = time(nullptr);
-	logfile << "\n\n// " << verts << " vertice elements. " << (q << 1) * (p - 1) << " triangles.\n// Generated at " << ctime(&lt);
+	logfile << "\n\n// " << verts << " vertices. " << (q << 1) * (p - 1) << " triangles.\n// Generated at " << ctime(&lt);
 	logfile.close();
 	system("pause");
 }
